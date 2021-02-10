@@ -37,7 +37,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "dev": "nodemon --exec 'kill-port --port 8000 && gatsby develop' --watch gatsby-node.js --watch package.json --watch gatsby-config.js"
+    "dev": "nodemon --exec 'kill-port --port 8000 && gatsby develop -H 0.0.0.0' --watch gatsby-node.js --watch package.json --watch gatsby-config.js"
   },
   "repository": {
     "type": "git",
