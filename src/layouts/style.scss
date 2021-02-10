@@ -7,7 +7,7 @@
 }
 
 header {
-  background-color: #000000;
+  background-color: #040f16;
   position: fixed;
   z-index: 100;
   top: 0;
@@ -21,7 +21,7 @@ header {
 }
 
 footer {
-  background-color: #000000;
+  background-color: #040f16;
   height: 200px;
 }
 
@@ -96,15 +96,26 @@ footer {
     
     .get-started {
       color: #ffffff;
-      background-color: #000000;
+      background-color: #040f16;
       width: fit-content;
       margin: 16px 0;
       padding: 16px 32px;
       font-size: 20px;
-      border: 4px solid #000000;
+      border: 4px solid #040f16;
       border-radius: 30px;
       font-weight: bold;
       cursor: pointer;
+
+      transition: background-color 0.3s 0s linear;
+      transition: color 0.3s 0s linear;
+      -moz-transition: background-color 0.3s 0s linear;
+      -moz-transition: color 0.3s 0s linear;
+      -webkit-transition: background-color 0.3s 0s linear;
+      -webkit-transition: color 0.3s 0s linear;
+      -o-transition: background-color 0.3s 0s linear;
+      -o-transition: color 0.3s 0s linear;
+      -ms-transition: background-color 0.3s 0s linear;
+      -ms-transition: color 0.3s 0s linear;
     
       &:hover {
         background-color: #ffffff;
@@ -115,6 +126,7 @@ footer {
   }
 
   .right {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
