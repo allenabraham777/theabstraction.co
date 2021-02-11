@@ -6,8 +6,12 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
-  background-color: #040f16;
+  background-color: #29339B;
   position: fixed;
   z-index: 100;
   top: 0;
@@ -17,17 +21,99 @@ header {
 
   .container {
     justify-content: space-between;
+
+    .brand-container {
+      display: flex;
+      align-items: center;
+      .brand {
+        margin: 0;
+        padding: 0;
+        font-size: 32px;
+        line-height: 32px;
+        color: #ffffff;
+        margin-left: 16px;
+        margin-top: 8px;
+      }
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      
+      ul {
+        display: flex;
+        
+        li {
+          list-style: none;
+          a{
+            margin: 0 32px;
+            color: white
+          }
+          
+          &:last-child {
+            a{
+              margin-right: 0;
+              text-decoration: none;
+              text-transform: uppercase;
+            }
+          }
+        }
+        
+      }
+    }  
   }
 }
 
 footer {
-  background-color: #040f16;
-  height: 200px;
-}
+  background-color: #29339B;
+  display: flex;
+  flex-direction: column;
 
-.brand {
-  font-size: 32px;
-  color: #ffffff;
+  .contents {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      padding-top: 64px;
+      color: white;
+      text-align: left;
+
+      h1 {
+        font-size: 24px;
+        text-decoration: underline;
+      }
+
+      ul {
+        padding: 8px 0;
+        li {
+        padding: 8px 0;
+        list-style: none;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    color: #ffffff;
+    background-color: #0c0d1a;
+    font-size: 20px;
+    
+    div {
+      padding: 16px 64px;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
 }
 
 .container {
@@ -41,32 +127,12 @@ footer {
   scroll-snap-type: y mandatory;
   overflow: auto;
   height: 100vh;
+  scroll-behavior: smooth;
+
   
   .section {
-    scroll-snap-align: start;
+    scroll-snap-align: end;
   }
-}
-
-
-.menu {
-  display: flex;
-  align-items: center;
-  font-size: 20px;
-}
-
-.menu ul {
-  display: flex;
-}
-
-.menu ul li a{
-  margin: 0 32px;
-  color: white
-}
-
-.menu ul li:last-child a{
-  margin-right: 0;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
 .landing {
@@ -95,31 +161,27 @@ footer {
     }
     
     .get-started {
-      color: #ffffff;
-      background-color: #040f16;
+      color: #ffffff;scroll-behavior: smooth;
+      background-color: #29339B;
       width: fit-content;
       margin: 16px 0;
       padding: 16px 32px;
       font-size: 20px;
-      border: 4px solid #040f16;
+      border: 4px solid #29339B;
       border-radius: 30px;
       font-weight: bold;
+      text-decoration: none;
       cursor: pointer;
 
       transition: background-color 0.3s 0s linear;
-      transition: color 0.3s 0s linear;
       -moz-transition: background-color 0.3s 0s linear;
-      -moz-transition: color 0.3s 0s linear;
       -webkit-transition: background-color 0.3s 0s linear;
-      -webkit-transition: color 0.3s 0s linear;
       -o-transition: background-color 0.3s 0s linear;
-      -o-transition: color 0.3s 0s linear;
       -ms-transition: background-color 0.3s 0s linear;
-      -ms-transition: color 0.3s 0s linear;
     
       &:hover {
         background-color: #ffffff;
-        color: black;
+        color: #29339B;
       }
     
     }
@@ -132,4 +194,62 @@ footer {
     align-items: center;
     width: 50%;
   }
+}
+
+.about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    width: 100%;
+    margin: 16px 0;
+    font-size: 40px;
+  }
+
+  .description {
+    width: 100%;
+    margin: 16px 0;
+    font-size: 28px;
+    line-height: 56px;
+    text-align: justify;
+  }
+}
+
+.socials {
+  flex-direction: column;
+  background-color: #F1FEC6;
+  max-width: 100%;
+  padding-top: 64px;
+
+  .title {
+    width: 100%;
+    margin-bottom: 32px;
+    font-size: 40px;
+    text-align: center;
+  }
+  .icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .icon {
+      margin: 16px 32px;
+      font-size: 56px;
+
+      a {
+        text-decoration: none;
+      }
+
+      .twitter {
+        color: #1da1f2;
+      }
+
+      .linkedin {
+        color: #0e76a8;
+      }
+    }
+  }  
 }

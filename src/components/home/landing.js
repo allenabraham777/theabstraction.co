@@ -1,5 +1,7 @@
 import React from 'react'
 import LandingImage from './images/landing';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 const Landing = () => {
   return (
@@ -11,7 +13,7 @@ const Landing = () => {
         <div className="subtitle">
           Let's make it strong
           </div>
-        <button className="get-started">Get Started</button>
+        <a href="#about" className="get-started">View More &nbsp;<FontAwesomeIcon icon={faArrowDown} size="md"/></a>
       </div>
       <div className="right">
         <LandingImage />

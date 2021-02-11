@@ -3,7 +3,40 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer className="section">
-      <h1>FOOTER</h1>
+      <div className="container contents">
+        <div>
+          <h1>Projects</h1>
+          <ul>
+            <li>Link1</li>
+            <li>Link1</li>
+            <li>Link1</li>
+          </ul>
+        </div>
+        <div>
+          <h1>Important Links</h1>
+          <ul>
+            <li>Link1</li>
+            <li>Link1</li>
+            <li>Link1</li>
+          </ul>
+        </div>
+        <div>
+          <h1>Social</h1>
+          <ul>
+            <li>Link1</li>
+            <li>Link1</li>
+            <li>Link1</li>
+          </ul>
+        </div>
+      </div>
+      <div className="copyright">
+        <div>
+          Made with 💗 and ☕ in Kochi
+        </div>
+        <div>
+          &copy; <a href="http://allenkabraham.me">Allen K Abraham</a>
+        </div>
+      </div>
     </footer>
   )
 }
