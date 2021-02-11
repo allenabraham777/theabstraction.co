@@ -1,0 +1,29 @@
+.blogs {
+  padding-top: 100px;
+  flex-direction: column;
+  .blog-list {
+    margin: 32px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .card {
+      width: 49%;
+      margin: 16px 0;
+      border: solid 2px #aaaaaa;
+      padding: 32px;
+      box-shadow: 5px 5px 10px #aaaaaa;
+      border-radius: 12px;
+
+      .title {
+        font-size: 28px;
+        text-align: justify;
+      }
+
+      .date {
+        margin: 24px 0;
+        font-size: 20px;
+      }
+    }
+  }
+}

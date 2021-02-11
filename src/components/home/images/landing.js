@@ -7,13 +7,8 @@ const LandingImage = () => {
   query Image {
     image: file(relativePath: {eq: "cover.jpg"}) {
       childImageSharp {
-        fixed(
-          width: 400
-        ) {
-          ...GatsbyImageSharpFixed
-        }
         fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }

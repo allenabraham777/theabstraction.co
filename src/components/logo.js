@@ -10,10 +10,7 @@ const Logo = () => {
         fixed(
           height: 48
         ) {
-          ...GatsbyImageSharpFixed
-        }
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFixed_withWebp
         }
       }
     }
