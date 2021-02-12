@@ -5,7 +5,7 @@ import {faLinkedin, faTwitter} from '@fortawesome/free-brands-svg-icons'
 const Socials = () => {
   return (
     <div className="container section socials">
-      <h1 className="title">Socials</h1>
+      <h1 className="title">Let's Connect</h1>
       <div className="icons">
         <div className="icon">
           <a href="" className="twitter">

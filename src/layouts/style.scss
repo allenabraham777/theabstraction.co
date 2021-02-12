@@ -229,7 +229,8 @@ footer {
 
 .socials {
   flex-direction: column;
-  background-color: #f1fec6;
+  border-top: double 4px #29339b;
+  border-bottom: double 4px #29339b;
   max-width: 100%;
   padding-top: 64px;
 
@@ -459,6 +460,7 @@ footer {
 
   .socials {
     max-width: 100%;
+    padding: 64px 0 !important;
 
     .title {
       font-size: 28px;
@@ -547,8 +549,6 @@ footer {
   }
 
   header {
-    position: relative;
-
     .container {
       .brand-container {
         .logo {
@@ -580,10 +580,6 @@ footer {
       align-items: center;
       justify-content: center;
       text-align: center;
-      height: 100vh;
-    }
-    .right {
-      display: none;
     }
   }
 
