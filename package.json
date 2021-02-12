@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "the-abstraction-co",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Learning is an abstract layer and skills are the functions. Make your functions powerfull with more abstraction. The abstraction is with you.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Allen K Abraham <allenabraham777@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
