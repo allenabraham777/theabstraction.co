@@ -38,6 +38,11 @@ header {
         color: #ffffff;
         margin-left: 16px;
         margin-top: 8px;
+        
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
       }
     }
 

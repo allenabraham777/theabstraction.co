@@ -11,7 +11,9 @@ const Header = () => {
         <span className="brand-container">
           <Logo/>
           <h1 className="brand">
-            The Abstraction
+            <Link to="/">
+              The Abstraction
+            </Link>
           </h1>
         </span>
         <label for="hamburger" className="hamburger-label">

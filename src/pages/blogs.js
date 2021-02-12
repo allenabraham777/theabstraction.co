@@ -9,7 +9,7 @@ const BlogsPage = ({data}) => {
   return (
     <Layout>
       <div className="container blogs">
-        <h1>Blogs</h1>
+        <h1 className="heading">Let's have some fun reading</h1>
         <div className="blog-list">
           {
             data.allMarkdownRemark.edges.map(
