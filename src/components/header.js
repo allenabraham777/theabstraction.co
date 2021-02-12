@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import Logo from "./logo"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 const Header = () => {
   return (
@@ -12,10 +14,16 @@ const Header = () => {
             The Abstraction
           </h1>
         </span>
+        <label for="hamburger" className="hamburger-label">
+          <FontAwesomeIcon icon={faBars} />
+        </label>
+        <input type="checkbox" id="hamburger" className="hamburger" />
         <nav className="menu">
           <ul>
             <li>
               <Link to="/blogs">Blogs</Link>
+            </li>
+            <li>
               <Link to="/blogs">Blogs</Link>
             </li>
           </ul>

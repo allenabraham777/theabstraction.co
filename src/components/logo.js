@@ -19,9 +19,7 @@ const Logo = () => {
   return <Img
   fixed={data.image.childImageSharp.fixed}
   alt="Logo"
-  style={{
-    filter: 'drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white)'
-  }}
+  className="logo"
   />
 }
 
