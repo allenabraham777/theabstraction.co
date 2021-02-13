@@ -1,10 +1,12 @@
 import { graphql } from 'gatsby'
 import React from 'react'
+import SEO from '../components/seo'
 import Layout from '../layouts/default'
 
 const AttributionsPage = ({data}) => {
   return (
     <Layout>
+      <SEO title="Credits" />
       <div className="container attributions">
         <h1>Credits</h1>
         <div dangerouslySetInnerHTML={{__html: data.attributions.html}} style={{padding: "32px 0px"}}></div>

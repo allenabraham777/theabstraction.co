@@ -4,11 +4,13 @@ import Layout from '../layouts/default';
 import ReactUtterences from 'react-utterances'
 
 import './post.scss'
+import SEO from '../components/seo';
 
 const PostTemplate = ({ data: { markdownRemark: post } }) => {
 
   return (
     <Layout>
+      <SEO title={post.frontmatter.title} description={post.frontmatter.title} />
       <div className="container post">
         <h1 className="title">{post.frontmatter.title}</h1>
         <div className="credits">
@@ -40,6 +42,7 @@ query MyQuery($path: String) {
     frontmatter {
       date
       title
+      description
       author
       name
     }
