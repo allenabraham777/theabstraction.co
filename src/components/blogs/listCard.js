@@ -1,19 +1,25 @@
-import { Link } from 'gatsby'
 import React from 'react'
+import { Link } from 'gatsby'
+import Img from 'gatsby-image';
 
 const ListCard = ({ blog }) => {
   return (
-    <div className="card">
-      <h1 className="title">
-        {blog.title}
-      </h1>
-      <div className="date">
-        <strong>Published on: </strong>{blog.date}
+    <Link to={blog.path} className="card">
+      <div className="thumbnail">
+        <Img fluid={blog.thumbnail.childImageSharp.fluid} style={{width: "100%", height: "100%"}}/> 
       </div>
-      <div className="path">
-        <Link to={blog.path}>View More</Link>
+      <div className="details">
+        <h1 className="title" >
+          {blog.title}
+        </h1>
+        <p className="description">
+          {blog.description}
+        </p>
+        <div className="date">
+          {blog.date}
+        </div>
       </div>
-    </div>
+    </Link>
   )
 }
 

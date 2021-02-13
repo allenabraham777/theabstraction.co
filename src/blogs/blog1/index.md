@@ -1,9 +1,14 @@
 ---
 title: 'Incididunt proident qui sunt officia cillum do dolor exercitation cupidatat excepteur.'
+description: 'Exercitation dolor adipisicing enim do irure ea aute elit est quis officia. Consequat laborum reprehenderit excepteur excepteur pariatur id. Aliquip eiusmod sunt qui duis velit nulla consectetur.'
 path: '/blogs/blog-1'
+thumbnail: './scene.jpg'
 published: true
 date: '09-Feb-2020'
 ---
+
+![Dexter](./scene.jpg "Scene")
+
 ### Title 1
 Est sunt officia qui laborum tempor velit proident. Lorem fugiat sint tempor reprehenderit ipsum qui. Occaecat excepteur in Lorem veniam ad ex in laboris aliqua fugiat dolor dolore. Non sit qui aliquip amet nulla amet aute consectetur esse cupidatat enim eu.
 

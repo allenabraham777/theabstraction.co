@@ -32,6 +32,14 @@ query AllBlogPosts {
           published
           date
           path
+          description
+          thumbnail {
+            childImageSharp {
+              fluid(maxWidth: 500) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }

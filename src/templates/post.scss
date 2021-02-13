@@ -1,0 +1,38 @@
+.post {
+  margin-top: 72px;
+  flex-direction: column;
+
+  .title {
+    margin: 32px 0 16px 0;
+  }
+
+  .date {
+    margin: 16px 0;
+    font-size: 12px;
+  }
+
+  .content {
+    h1, h2, h3 {
+      margin: 16px 0;
+      width: 100%;
+    }
+    p {
+      text-align: justify;
+      margin: 16px 0;
+      width: 100%;
+    }
+    .gatsby-resp-image-figure {
+      .gatsby-resp-image-figcaption{
+        p{
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .post {
+    margin-top: 0px;
+  }
+}
