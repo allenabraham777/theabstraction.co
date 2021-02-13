@@ -3,6 +3,8 @@ title: 'Labore id eiusmod laboris eiusmod fugiat magna dolore reprehenderit.'
 description: 'Ut duis ea ex id laborum magna et. Veniam id velit do commodo nisi id velit ea. Adipisicing dolore laborum duis ad sint ad incididunt mollit in reprehenderit amet in.'
 path: '/blogs/blog-2'
 thumbnail: './scene.jpg'
+author: 'allenabraham777'
+name: 'Allen K Abraham'
 published: true
 date: '08-Feb-2020'
 ---

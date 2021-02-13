@@ -3,6 +3,8 @@ title: 'Incididunt proident qui sunt officia cillum do dolor exercitation cupida
 description: 'Exercitation dolor adipisicing enim do irure ea aute elit est quis officia. Consequat laborum reprehenderit excepteur excepteur pariatur id. Aliquip eiusmod sunt qui duis velit nulla consectetur.'
 path: '/blogs/blog-1'
 thumbnail: './scene.jpg'
+author: 'allenabraham777'
+name: 'Allen K Abraham'
 published: true
 date: '09-Feb-2020'
 ---

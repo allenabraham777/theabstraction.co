@@ -3,6 +3,8 @@ title: 'Laboris sit officia eiusmod exercitation ea aliqua qui.'
 description: 'Eiusmod aliquip Lorem commodo eu cillum quis deserunt laboris anim nostrud officia. Anim in enim laboris eu est aliquip. Lorem incididunt anim laboris ut sint adipisicing.'
 path: '/blogs/blog-3'
 thumbnail: './scene.jpg'
+author: 'allenabraham777'
+name: 'Allen K Abraham'
 published: true
 date: '10-Feb-2020'
 ---

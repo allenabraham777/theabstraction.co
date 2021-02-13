@@ -1,24 +1,55 @@
 .post {
   margin-top: 72px;
   flex-direction: column;
-
   .title {
     margin: 32px 0 16px 0;
+    text-align: justify;
   }
 
-  .date {
+  .credits {
+    display: flex;
     margin: 16px 0;
-    font-size: 12px;
+
+    .image{
+      margin-right: 20px;
+      img{
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        box-shadow: 1px 1px 6px #aaaaaa;
+      }
+    }
+    .details{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .author {
+        font-size:20px;
+        font-weight: bold;
+
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+    
+      .date {
+        margin: 8px 0;
+        font-size: 12px;
+      }
+    }
   }
+
 
   .content {
     h1, h2, h3 {
-      margin: 16px 0;
+      margin: 28px 0;
       width: 100%;
     }
     p {
       text-align: justify;
-      margin: 16px 0;
+      margin: 24px 0 32px 0;
       width: 100%;
     }
     .gatsby-resp-image-figure {
@@ -27,6 +58,27 @@
           text-align: center;
         }
       }
+    }
+  }
+
+  .comments {
+    width: 100%;
+
+    .react-utterences {
+      .utterances {
+        max-width: 100%;
+        
+        .utterances-frame {
+          width: 100%;
+        }
+      }
+    }
+
+
+    .privacy {
+      font-size: 16px;
+      color: #888888;
+      text-align: center;
     }
   }
 }

@@ -8,25 +8,24 @@ const Footer = () => {
         <div>
           <h1>Projects</h1>
           <ul>
-            <li>Link1</li>
-            <li>Link1</li>
-            <li>Link1</li>
+            <li><a href="https://github.com/abstractionhere/git-docs-malayalam">Git Malayalam Docs</a></li>
+            <li><a href="https://github.com/abstractionhere/speech-to-text-web-api-react">React Speech to Text</a></li>
+            <li><a href="https://github.com/abstractionhere/web-dev-completed">HTML5 Portfolio Website</a></li>
           </ul>
         </div>
         <div>
           <h1>Important Links</h1>
           <ul>
-            <li><Link to="/attributions">Credits</Link></li>
-            <li>Link1</li>
-            <li>Link1</li>
+            <li><Link to="/attributions">Website Credits</Link></li>
+            <li><a href="https://github.com/abstractionhere">Github</a></li>
           </ul>
         </div>
         <div>
           <h1>Social</h1>
           <ul>
-            <li>Link1</li>
-            <li>Link1</li>
-            <li>Link1</li>
+            <li><a href="https://twitter.com/abstractionhere">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/company/abstractionhere">Linkedin</a></li>
+            <li><a href="https://www.youtube.com/theabstraction">Youtube</a></li>
           </ul>
         </div>
       </div>
