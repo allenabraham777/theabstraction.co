@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 const Footer = () => {
   return (
@@ -15,7 +16,7 @@ const Footer = () => {
         <div>
           <h1>Important Links</h1>
           <ul>
-            <li>Link1</li>
+            <li><Link to="/attributions">Credits</Link></li>
             <li>Link1</li>
             <li>Link1</li>
           </ul>

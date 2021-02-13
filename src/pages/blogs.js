@@ -24,7 +24,7 @@ const BlogsPage = ({data}) => {
 
 export const pageQuery = graphql`
 query AllBlogPosts {
-  allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}, filter: {frontmatter: {published: {eq: true}}}) {
+  allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}, filter: {frontmatter: {published: {eq: true}}, fileAbsolutePath: {regex: "/blogs/.*md$/"}}) {
     edges {
       node {
         frontmatter {

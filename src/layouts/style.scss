@@ -98,7 +98,6 @@ footer {
 
       h1 {
         font-size: 24px;
-        text-decoration: underline;
       }
 
       ul {
@@ -106,6 +105,11 @@ footer {
         li {
           padding: 8px 0;
           list-style: none;
+          
+          a {
+            text-decoration: none;
+            color: #ffffff;
+          }
         }
       }
     }
@@ -210,6 +214,19 @@ footer {
   }
 }
 
+.attributions {
+  flex-direction: column;
+  padding-top: 100px;
+
+  h3 {
+    margin: 32px 0 8px 0;
+  }
+
+  p {
+    margin: 8px 0;
+  }
+}
+
 .about {
   height: 100vh;
   display: flex;
@@ -303,84 +320,23 @@ footer {
 
         ul {
           display: block;
+          width: 100%;
+          text-align: center;
 
           li {
             width: 100%;
             list-style: none;
-            margin: 16px 0;
+            margin: 32px 0;
 
             a {
               margin: 0 32px;
               color: white;
-            }
-          }
-        }
-      }
-      .hamburger:checked + .menu {
-        height: 100vh;
-      }
-      .hamburger-label {
-        display: block;
-        cursor: pointer;
-        font-size: 32px;
-        color: #ffffff;
-      }
-    }
-  }
-  .container {
-    display: flex;
-    max-width: 85%;
-    margin: 0 auto;
-    padding: 16px;
-  }
-  .socials {
-    max-width: 100%;
-  }
-}
+              text-align: center;
+              font-size: 28px;
 
-@media (max-width: 1111px) {
-  header {
-    .container {
-      align-items: center;
-
-      .brand-container {
-        display: flex;
-        align-items: center;
-        .brand {
-          margin: 0;
-          padding: 0;
-          font-size: 32px;
-          line-height: 32px;
-          color: #ffffff;
-          margin-left: 16px;
-          margin-top: 8px;
-        }
-      }
-
-      .menu {
-        position: absolute;
-        z-index: -10;
-        font-size: 20px;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 0;
-        justify-content: center;
-        overflow: hidden;
-        background: #29339b;
-        transition: height 0.2s 0s linear;
-
-        ul {
-          display: block;
-
-          li {
-            width: 100%;
-            list-style: none;
-            margin: 16px 0;
-
-            a {
-              margin: 0 32px;
-              color: white;
+              &:last-child {
+                margin-right: 32px;
+              }
             }
           }
         }
@@ -535,6 +491,10 @@ footer {
       order: 1;
       width: 100%;
     }
+  }
+
+  .attributions {
+    padding-top: 32px;
   }
 
   footer {
