@@ -17,6 +17,7 @@ const Footer = () => {
           <h1>Important Links</h1>
           <ul>
             <li><Link to="/attributions">Website Credits</Link></li>
+            <li><a href="https://github.com/abstractionhere/theabstraction.co">Website Source</a></li>
             <li><a href="https://github.com/abstractionhere">Github</a></li>
           </ul>
         </div>

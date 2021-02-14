@@ -1,34 +1,42 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://www.theabstraction.co">
+    <img alt="Gatsby" src="./src/images/logo.png" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  The Abstraction
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+This is the repo containing the source code for the official website for The Abstraction - [theabstraction.co](https://theabstraction.co)
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Install NodeJS**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+    This website was developed in NodeJS version 13(LTS). If you are having different version of NodeJS, you can use ```nvm```to switch between the versions, follow official [docs](https://github.com/nvm-sh/nvm) to know more.
 
     ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    nvm install 13
+    nvm use 12
     ```
 
-1.  **Start developing.**
+1.  **Install GatsbyJS**
 
-    Navigate into your new site’s directory and start it up.
+    This website is a static site and is generated using GatsbyJS so you need to install gatsby-cli, follow official [docs](https://www.gatsbyjs.com/docs/tutorial/part-zero/#using-the-gatsby-cli) to install it.
 
     ```shell
-    cd my-default-starter/
+    npm install -g gatsby-cli
+    ```
+
+1.  **Clone and start contributing.**
+
+    Clone this repo, we need ```git``` for it and start using it.
+
+    ```shell
+    git clone https://github.com/abstractionhere/theabstraction.co.git theabstraction
+
+    cd theabstraction
+    
     gatsby develop
     ```
 
@@ -42,58 +50,66 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 ## 🧐 What's inside?
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+A quick look at the top-level files and directories you'll see in the src directory, it's the directory having the website contents.
 
     .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+    ├── attributions
+    ├── blogs
+    ├── components
+    ├── images
+    ├── layouts
+    ├── pages
+    ├── styles
+    └── templates
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+1.  **`attributions`**: Contains the credit page content stored in ```attributions.md```
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+2.  **`blogs`**: The contents for the blogs page is added here, each new directory created inside will be a new blog.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+3.  **`components`**: Contains the website components.
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+4.  **`images`**: Contains the image assets used in the website.
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+5.  **`layouts`**: Contains the layout required for various pages.
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/gatsby-config/) for more detail).
+6.  **`pages`**: Each page in the website is added here, a new ```*.js``` file added will be a new route.
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+7.  **`styles`**: Contains all stylessheets used in the website. We are using scss.
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+8.  **`templates`**: Dynamic contents require certain templates to get rendered, this directory contains those templates
 
-9.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+## 🗒️ Post a blog
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+1. You need to create a new directory in the ```src/blogs```
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+2. Follow the convention ```yyyy-mm-dd_post-name```, if you are creating a folder post 1, create it as ```2021-02-13_post-1```.
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+3. Create an ```index.md``` file and add your contents to it, and its assets can be added to the same folder.
 
-## 🎓 Learning Gatsby
+4. At the top you must add the frontmatter enclosed in 3 hyphens, else your blog will not be published.
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+```md
+path: '/blogs/post-1'
+date: '13-Feb-2020'
+thumbnail: './thumbnail.jpg'
+title: 'A new blog post'
+description: 'A small description'
+author: 'author_github_username'
+name: 'Author name, this is to avoid github api complications'
+published: false
+```
+There should not be conflict in the path name so please watchout.
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+Visit [Gatsby markdown docs](https://www.gatsbyjs.com/docs/reference/markdown-syntax) to know more.
 
-## 💫 Deploy
+## Tools
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+### 💻 Static sit generation
+[![Gatsby](https://www.gatsbyjs.com/Gatsby-Logo.svg)](https://www.gatsbyjs.com/)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+### 🗣️ Comment section
+#### 🔮 Utterances
+[![Utterances](https://github.com/utterance.png?size=100)](https://utteranc.es/)
+### 💫 Deployment
+[![Netlify](https://www.netlify.com/img/press/logos/full-logo-light.svg)](https://www.netlify.com/)

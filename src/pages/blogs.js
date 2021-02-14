@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../layouts/default'
 
-import './blogs.scss';
+import '../styles/blogs.scss';
 import ListCard from '../components/blogs/listCard';
 import SEO from '../components/seo';
 

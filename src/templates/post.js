@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../layouts/default';
 import ReactUtterences from 'react-utterances'
 
-import './post.scss'
+import '../styles/post.scss'
 import SEO from '../components/seo';
 
 const PostTemplate = ({ data: { markdownRemark: post } }) => {
