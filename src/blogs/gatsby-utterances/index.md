@@ -75,6 +75,7 @@ export default App
 ```
 
 *type is the issue term mentioned in the previous section*
+*theme options not available in this package*
 
 ## Fun fact
 
