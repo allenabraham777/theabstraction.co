@@ -8,12 +8,12 @@ const Socials = () => {
       <h1 className="title">Let's Connect</h1>
       <div className="icons">
         <div className="icon">
-          <a href="" className="twitter">
+          <a href="https://twitter.com/abstractionhere" className="twitter">
             <FontAwesomeIcon icon={faTwitter} />
           </a>
         </div>
         <div className="icon">
-        <a href="" className="linkedin">
+        <a href="https://www.linkedin.com/company/abstractionhere" className="linkedin">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
