@@ -286,6 +286,17 @@ footer {
   }
 }
 
+.not-found {
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 64px;
+  }
+}
+
 @media (max-width: 1111px) {
   header {
     .container {

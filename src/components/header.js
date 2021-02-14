@@ -16,7 +16,7 @@ const Header = () => {
             </Link>
           </h1>
         </span>
-        <label for="hamburger" className="hamburger-label">
+        <label htmlFor="hamburger" className="hamburger-label">
           <FontAwesomeIcon icon={faBars} />
         </label>
         <input type="checkbox" id="hamburger" className="hamburger" />

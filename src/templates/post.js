@@ -15,7 +15,7 @@ const PostTemplate = ({ data: { markdownRemark: post } }) => {
         <h1 className="title">{post.frontmatter.title}</h1>
         <div className="credits">
           <div className="image">
-            <img src={`https://github.com/${post.frontmatter.author}.png?size=70`} />
+            <img src={`https://github.com/${post.frontmatter.author}.png?size=70`} alt={post.frontmatter.name} />
           </div>
           <div className="details">
             <div className="author">

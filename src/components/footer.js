@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
       <div className="copyright">
         <div>
-          Made with 💗 and ☕ in Kochi
+          Made with <span role="img" aria-label="Heart">💗</span> and <span role="img" aria-label="Coffee">☕</span> in Kochi
         </div>
         <div>
           &copy; <a href="http://allenkabraham.me">Allen K Abraham</a>
