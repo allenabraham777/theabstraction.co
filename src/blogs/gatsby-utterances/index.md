@@ -1,6 +1,6 @@
 ---
-title: 'Serverless comment section in your blogs created using gatsby'
-description: 'Add comment section to your blogs created you static site generator - gatsby, which uses github to post comment'
+title: 'Serverless comment section in your blogs created using React'
+description: 'Add comment section to your blogs created in serverless frameworks like - gatsby, which uses github to post comment'
 path: '/blogs/static-site-comment-system'
 thumbnail: './cover.jpg'
 author: 'allenabraham777'
