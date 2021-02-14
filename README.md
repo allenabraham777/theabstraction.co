@@ -106,10 +106,10 @@ Visit [Gatsby markdown docs](https://www.gatsbyjs.com/docs/reference/markdown-sy
 ## Tools
 
 ### 💻 Static sit generation
-[<img src="https://www.gatsbyjs.com/Gatsby-Logo.svg" style="height: 100px" >](https://www.gatsbyjs.com/)
+[<img src="https://www.gatsbyjs.com/Gatsby-Logo.svg" height="50" >](https://www.gatsbyjs.com/)
 
 ### 🗣️ Comment section
 #### 🔮 Utterances
-[![Utterances](https://github.com/utterance.png?size=100)](https://utteranc.es/)
+[![Utterances](https://github.com/utterance.png?size=50)](https://utteranc.es/)
 ### 💫 Deployment
 [![Netlify](https://www.netlify.com/img/press/logos/full-logo-light.svg)](https://www.netlify.com/)
