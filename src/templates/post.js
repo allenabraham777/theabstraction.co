@@ -28,7 +28,8 @@ const PostTemplate = ({ data: { markdownRemark: post } }) => {
         </div>
         <div className="content" dangerouslySetInnerHTML={{ __html: post.html }} />
         <div className="comments">
-        <ReactUtterences repo={'abstractionhere/blogs-comment'} type={'url'} />
+        <h2>Comments</h2>
+        <ReactUtterences repo={'abstractionhere/blogs-comment'} type={'pathname'} />
         <p className="privacy">Comments will br processed with the privacy policy of <a href="https://utteranc.es/">utterances</a> and <a href="https://github.com/">github</a></p>
         </div>
       </div>

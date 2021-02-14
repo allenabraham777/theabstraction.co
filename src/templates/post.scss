@@ -43,13 +43,13 @@
 
 
   .content {
-    h1, h2, h3 {
-      margin: 28px 0;
+    h1, h2, h3, h4 {
+      margin: 28px 0 0 0;
       width: 100%;
     }
     p {
       text-align: justify;
-      margin: 24px 0 32px 0;
+      margin: 16px 0 32px 0;
       width: 100%;
     }
     .gatsby-resp-image-figure {
@@ -59,10 +59,20 @@
         }
       }
     }
+
+    ul {
+      li {
+        margin: 16px 0;
+        text-align: justify;
+      }
+    }
   }
 
   .comments {
     width: 100%;
+    margin-top: 32px;
+    border-top: dashed #888888;
+    padding-top: 32px;
 
     .react-utterences {
       .utterances {
@@ -80,6 +90,18 @@
       color: #888888;
       text-align: center;
     }
+  }
+
+  pre {
+    background-color: #eeeeee;
+    padding: 32px;
+  }
+  code {
+    font-family: Courier, 'New Courier', monospace;
+    font-size: 12px;
+    background-color: #eeeeee;
+    color: rgb(12, 80, 4);
+    padding: 2px 8px;
   }
 }
 
