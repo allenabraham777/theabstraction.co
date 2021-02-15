@@ -1,5 +1,5 @@
 ---
-title: 'Serverless comment section in your static blogs'
+title: 'A serverless comment section for your static blogs'
 description: 'Add comment section to your blogs created using basic HTML5-CSS3 or serverless frameworks like - Gatsby, which uses Github OAuth to post comment'
 path: '/blogs/static-site-comment-system'
 thumbnail: './cover.jpg'
