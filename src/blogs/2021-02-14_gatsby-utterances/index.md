@@ -45,11 +45,11 @@ After the repository is ready you need to add the following code snippet to the 
 
 <big>___theme:___</big> ```github-light``` or ```github-dark```
 
-For more know more about it visit the [docs]("https://utteranc.es/"). There is a tag generator available which is so handy to use.
+For more know more about it visit the [docs](https://utteranc.es). There is a tag generator available which is so handy to use.
 
 ## In React applications
 
-There is a handy package in npm called ```react-utterances``` which could be used in our serverless react apps to implement utterances. Visit [npmjs]("https://www.npmjs.com/package/react-utterances") for full docs.
+There is a handy package in npm called ```react-utterances``` which could be used in our serverless react apps to implement utterances. Visit [npmjs](https://www.npmjs.com/package/react-utterances) for full docs.
 
 #### Install
 ```
