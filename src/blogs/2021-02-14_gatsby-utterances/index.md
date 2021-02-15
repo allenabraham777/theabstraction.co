@@ -14,7 +14,9 @@ Comments help in better social reach of a blog and helps it's audience to get mo
 There are 'n' number of platforms available which helps us to add comments section into our blog but most of them require us to create a server or create an account, which demotivates us from adding comments to our small websites, out of that one of the light weight, login free, serverless and easy to implement tool is [utterances](https://utteranc.es). Just adding a single line brings the comment section to your blog.
 
 ## Working
-**Utterances** work with the help of the **Github issues** whenever a comment is added it will be attached to the github issues created for the purticular blog. If no issues are present it will create a new one and attach to it, each blog will be having its corresponding issue.
+When ***Utterances*** loads, the GitHub issue search API is used to find the issue associated with the page based on url, pathname or title. If we cannot find an issue that matches the page, no problem, utterances-bot will automatically create an issue the first time someone comments.
+
+To comment, users must authorize the utterances app to post on their behalf using the GitHub OAuth flow. Alternatively, users can comment on the GitHub issue directly.
 
 ## Implementation
 
