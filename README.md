@@ -99,7 +99,9 @@ author: 'author_github_username'
 name: 'Author name, this is to avoid github api complications'
 published: false
 ```
-There should not be conflict in the path name so please watchout.
+Value for *published* is to be set as ```false```. Once the content is rviewed it will be set to ```true``` by the reviewers.
+
+`There should not be conflict in the path name so please watchout.`
 
 Visit [Gatsby markdown docs](https://www.gatsbyjs.com/docs/reference/markdown-syntax) to know more.
 
