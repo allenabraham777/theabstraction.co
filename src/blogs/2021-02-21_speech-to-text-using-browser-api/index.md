@@ -48,7 +48,7 @@ recognition.stop();  //Stops  the mic
 After starting the mic you could speak through it. When you stop recording the results will be generated and stored in the `recognition` object. It could be recovered using the ```onresult()``` event.
 
 ```javascript
-recognition.onresult = r => {
+recognition.onresult = e => {
     const lastIndex = e.results.length - 1;
     const transcript = e.results[lastIndex][0].transcript;
     console.log(transcript);
