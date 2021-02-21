@@ -23,7 +23,8 @@ To comment, users must authorize the utterances app to post on their behalf usin
 To add **utterances** to your website first of all you need a github repository, you can either use the repo used to store your website or create a new one, I would suggest creating a new one as keeping comments as separate concern would be better. 
 
 After the repository is ready you need to add the following code snippet to the ```div``` of ```section``` in which you are planning to add the comments.
-```
+
+```html
 <script src="https://utteranc.es/client.js"
   repo="[ENTER REPO HERE]"
   issue-term="[ENTER TERM HERE]"
@@ -52,12 +53,14 @@ For more know more about it visit the [docs](https://utteranc.es). There is a ta
 There is a handy package in npm called ```react-utterances``` which could be used in our serverless react apps to implement utterances. Visit [npmjs](https://www.npmjs.com/package/react-utterances) for full docs.
 
 #### Install
-```
+
+```shell
 npm install react-utterances
 ```
 
 #### Usage
-```
+
+```javascript
 import React from 'react'
 import ReactUtterences from 'react-utterances'
  

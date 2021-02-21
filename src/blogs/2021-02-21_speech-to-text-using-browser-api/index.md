@@ -20,6 +20,7 @@ The `SpeechRecognition`  interface for the of Web Speech API is used for the spe
 For **Mozilla Firefox** the name of the interface is simply ```SpeechRecognition``` and for the **Google Chrome** it's ```webkitSpeechRecognition```, so initially you need to set the speech recognition engine.
 
 ### Setting up the engine
+
 ```javascript
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
 //SpeechRecognition = window.SpeechRecognition for Chrome
