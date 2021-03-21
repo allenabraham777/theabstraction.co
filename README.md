@@ -17,7 +17,7 @@ This is the repo containing the source code for the official website for The Abs
 
     ```shell
     nvm install 13
-    nvm use 12
+    nvm use 13
     ```
 
 1.  **Install GatsbyJS**
